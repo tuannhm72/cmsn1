@@ -41,9 +41,9 @@
     present.addEventListener("click",function(ev){
       drawFlowers()
       playVideo()
-      setTimeout(() => {
-        playMusic()
-      }, 18300); //18300
+     // setTimeout(() => {
+      //   playMusic()
+      // }, 18300); //18300
       setTimeout(() => {
         document.getElementById('card').classList.add('card-show');
       }, 18500); //18500
